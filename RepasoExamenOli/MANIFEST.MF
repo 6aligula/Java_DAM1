@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: lib/daw.jar
+Main-Class: AppVideoClub
+

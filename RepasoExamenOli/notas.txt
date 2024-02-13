@@ -1,0 +1,13 @@
+compilar proyecto con librerias externas:
+
+javac -cp .:lib/* -d . *.java
+
+-----------------------------------------------
+
+Ejecutar el programa con las librerias:
+
+java -cp .:lib/* AppVideoClub
+
+
+Empaquetar la AppVideoClub
+jar cvfm AppVideoClub.jar MANIFEST.MF *.class lib/
